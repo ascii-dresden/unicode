@@ -1,0 +1,49 @@
+title: Dossiers
+celebrities:
+  - name: <em>not</em> the Rock
+    quote: |
+      This ain’t ‘Sing Along With The Rock’!
+      But I like the coffee! The coffee is great.
+      Thinking of it, I want some of that coffee now!
+      Bring me some now or
+      you will go one on one with the Great One!
+    source: http://www.westlord.com/dwayne-johnson-the-rock-quotes/
+    img: img/quotes/rock.jpg
+
+  - name: <em>not</em> Angelina Jolie
+    quote: |
+      I took a lot of the inspiration for my character in <q>hackers</q> from the friends I made at this place.
+      Thank you unicode for making this chareer possible.
+    source: 
+    img: img/quotes/angelina.jpg
+
+  - name: <em>not</em> Abraham Lincoln
+    quote: |
+      I have a Dream! 
+      If we cannot give free coffee to everybody, let us do nothing that will impose bad coffee upon anybody.
+    source: 
+    img: img/quotes/abe.jpg
+
+
+  - name: Ada, Countess of Lovelace
+    quote: |
+      Back in my day we had to puncture ones and zeros onto harddrives by hand with a hot needle,
+      I prefered to add some hot White Mocca Latte to that.
+    source: 
+    img: img/quotes/ada.jpg
+
+
+
+
+
+  - name: Guy who looks like Vin Diesel
+    quote: The f--- do I know? I'm not even actual Vin Diesel!
+    source: 
+    img: img/quotes/vin.jpg
+
+  - name: Sean Connery
+    quote: |
+      You shee, there are all lot of exshelent brew houshesh around, non are ash good as unicode.
+      I shit in there ash much ash I can, the coffee is delishiosh.
+    source: 
+    img: img/quotes/sean.jpg

@@ -1,0 +1,66 @@
+<!-- Dossier Section -->
+<section id="dossiers">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{site.data.dossiers.title}}</h2>
+        <h3 class="section-subheading text-muted">
+          Here are people who spilled our coffee at least once and lived to talk about it.
+          If you are a celebrity and had our coffee in the past or wrote actual code on one of our sofas please add your remarks.
+          <sub>
+            (
+            You code must compile.
+            )
+          </sub>
+
+        </h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+
+        <ul class="timeline">
+
+{% for dossier in site.data.dossiers.celebrities %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+{% if thecycle == 'odd' %}
+          <li>
+{% else %}
+          <li class="timeline-inverted">
+
+{% endif %}
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="{{ dossier.img}}" alt="{{ dossier.name }}">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="subheading">
+                  {{ dossier.name }}
+                </h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                {{ dossier.quote}}
+                </p>
+              </div>
+            </div>
+          </li>
+
+
+
+{% endfor %}
+
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>Add<br/> your own remarks</h4>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</section>
+
