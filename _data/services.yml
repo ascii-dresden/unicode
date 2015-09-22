@@ -1,0 +1,21 @@
+title: Dossiers
+servies:
+  - name: Coffee
+    description: |
+        You want the coffee? We have the coffee!<br/>
+        You ask for coffee? We'll ask you: "What blend of caffé would you like? BrasilCorreio, Kenya Uhuru, Cuba Correos, Guatemala Aéreo? You name it!"<br/>
+        We exclusively serve low fat, lactose-free, gluten-free soy supplement milk.
+  - name: Code
+    description: |
+        You want to come here to drink coffee? No! You come here to code! Great software is always produced under the influence of high levels of organic caffeine and love ♥.
+        You're looking for a place to <a href="https://github.com/ErisBlastar/cplusequality#philosophy">birth your software</a>? We offer you a coffee-driven couch-based integrated development environment.
+        No one ever produced quality software in a cubicle.
+        And if your software takes off, thank us by mentioning you wrote it on one of our quality suede sofas, sipping the finest brew in all of Dresden.
+  - name: Lifestyle
+    description: |
+        You're at the uni? You code? Perfect!<br/>
+        Jump on your fixie and get here immediately!
+        You don't have one? Get one!
+        Even better, get a <q>UniCylce</q>, seriously!</br>
+        And why unicode you might ask? Simple. Yes, just that. Simplicity. Simplicity is love, simplicity is life.
+        And if we haven't made it clear enough, we mean to love life and live love as much as possible.
